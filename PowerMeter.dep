@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1601240869</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Ads1220.c</file>
+      <file>$PROJ_DIR$\Battery.c</file>
+      <file>$PROJ_DIR$\Awaken.c</file>
+      <file>$PROJ_DIR$\Ble.c</file>
+      <file>$PROJ_DIR$\Delay.c</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Ads1220.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Eeprom.pbi</file>
+      <file>$PROJ_DIR$\Delay.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ads1220.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Sys.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Delay.o</file>
+      <file>$PROJ_DIR$\Awaken.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\templproj.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Awaken.pbi</file>
+      <file>$PROJ_DIR$\Battery.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Battery.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\PowerMeter.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\Time.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Battery.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Awaken.o</file>
+      <file>$PROJ_DIR$\Sleep.h</file>
+      <file>$PROJ_DIR$\Mpu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Sleep.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ads1220.pbi</file>
+      <file>$PROJ_DIR$\Sys.c</file>
+      <file>$PROJ_DIR$\Mpu.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Sys.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ble.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8l051f3.icf</file>
+      <file>$PROJ_DIR$\Type.h</file>
+      <file>$PROJ_DIR$\Sys.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Mpu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Ble.o</file>
+      <file>$TOOLKIT_DIR$\inc\iostm8l051f3.h</file>
+      <file>$PROJ_DIR$\Time.h</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Mpu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Sleep.o</file>
+      <file>$PROJ_DIR$\Eeprom.h</file>
+      <file>$PROJ_DIR$\Eeprom.c</file>
+      <file>$PROJ_DIR$\Time.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Eeprom.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Time.o</file>
+      <file>$PROJ_DIR$\Ble.h</file>
+      <file>$PROJ_DIR$\Sleep.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Ads1220.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 32 37 39 8</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 6 32 37 39 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Battery.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 32 37 39 8</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 16 32 37 39 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Awaken.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 32 37 39</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 12 32 37 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Ble.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 49 32 37 39 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 32 37 39</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 8 32 37 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\templproj.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 31 9 21 17 36 11 47 41 43 10 48 14 34 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Sys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 32 37 39 8</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 33 32 37 39 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Mpu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 32 37 39 8</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 23 32 37 39 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 37 39 33 44 6 49 12 16 22 38 23</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 32 37 39 33 44 6 49 12 16 22 38 23</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 32 37 39</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 32 37 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Time.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 32 37 39</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 38 32 37 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 32 37 39</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 22 32 37 39</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
